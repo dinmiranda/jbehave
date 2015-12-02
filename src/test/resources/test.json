@@ -1,0 +1,85 @@
+{
+  "Content": [
+    {
+      "assignedTo": null,
+      "collections": {
+        "AdditionalDisclaimer": [
+          52763
+        ],
+        "Analytics": [
+          118546
+        ],
+        "Breadcrumbs": [
+          46842
+        ],
+        "DVICBanner": [
+          49129
+        ],
+        "Disclaimer": [
+          68297,
+          51442
+        ],
+        "Form": [
+          52144,
+          51927,
+          52145,
+          52146,
+          52148,
+          62218,
+          124164,
+          124168
+        ],
+        "LiveChat": [
+          131060
+        ],
+        "Summary": [
+          52614,
+          52632
+        ]
+      },
+      "createDate": "2015/04/13 11:03:04.480 -0700",
+      "customProperties": {
+        "AlternateLanguage": "False",
+        "AlternateUri": null,
+        "Identifier": null,
+        "Layout": "standard",
+        "MembersOnly": "False",
+        "MetaDescription": "Disney Vacation Club Members can enjoy Member benefits and more, like savings on select Disney experiences and invitations to special events.",
+        "MetaKeywords": null,
+        "PageTitle": "Member Benefits & More",
+        "ReadyTranslation": [
+          25
+        ],
+        "Secure": "True",
+        "SitemapPriority": null,
+        "StageId": [],
+        "TargetDeviceType": [
+          30
+        ],
+        "TargetTranslation": [
+          24
+        ],
+        "Title": "Member Benefits & More | Disney Vacation Club",
+        "Uri": "/discounts-perks-offers/"
+      },
+      "dateformat": "yyyy/MM/dd HH:mm:ss.SSS Z",
+      "fullUrl": null,
+      "id": 51698,
+      "lastModifiedDate": "2015/10/29 12:12:25.617 -0700",
+      "location": null,
+      "name": "discounts-perks-offers-dvcsitepage",
+      "premium": false,
+      "publishedKey": "/discounts-perks-offers/",
+      "references": {
+        "SiteSurvey": 46913,
+        "TopLink": 165111
+      },
+      "rootUrl": null,
+      "section": "dvc/en/discounts-perks-offers",
+      "sectionRoot": null,
+      "site": "DVC",
+      "stage": null,
+      "type": "DVCSitePage"
+    }
+  ]
+}
