@@ -6,7 +6,7 @@ import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.jbehave.tutorials.etsy.model.Content;
-import org.jbehave.tutorials.etsy.model.DVCPage;
+import org.jbehave.tutorials.etsy.model.ContentWrapper;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -77,10 +77,10 @@ public class JsonTest {
                 "/media/BigDrive/Projects/workspaceM/jbehave/src/test/resources/org/jbehave/tutorials/etsy/test.json"
                                                        ) );
         ObjectMapper mapper = new ObjectMapper();
-        DVCPage content = mapper.readValue( jsonData, DVCPage.class );
+        ContentWrapper content = mapper.readValue( jsonData, ContentWrapper.class );
 
         System.out.println( "An item: " + mapper.writeValueAsString( content ) );
-        for( Content item : content.Content ) {
+        for( Content item : content.content ) {
             System.out.println( item.getSection() );
             System.out.println( item.getAssignedTo() );
             System.out.println( item.getCollections().get( "Analytics" ) );
