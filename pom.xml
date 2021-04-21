@@ -13,9 +13,9 @@
         <jbehave.web.version>3.6-beta-2</jbehave.web.version>
         <jbehave.site.version>3.3</jbehave.site.version>
         <fluent.selenium.version>1.16</fluent.selenium.version>
-        <selenium.version>2.48.2</selenium.version>
+        <selenium.version>3.13.0</selenium.version>
         <ignore.failures>true</ignore.failures>
-        <meta.filter></meta.filter>
+        <meta.filter/>
         <threads>1</threads>
         <skip>false</skip>
         <stories>**/EtsyDotComStories.java</stories>
@@ -174,7 +174,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -187,7 +187,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
